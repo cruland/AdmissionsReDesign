@@ -1,1 +1,75 @@
+body {
+  position: relative;
+  padding-top: 1.5%: 
+  margin: 0;
+  background-color: #e8e8e8;
+  font-family: 'Cabin', sans-serif;
+
+}
+
+* a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4em;
+/*  padding-top: 3%;*/
+
+}
+
+* a:hover {
+  text-decoration: none;
+}
+
+.row div {
+  height: 180px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+#tour, #life {
+  background-color: #E55459;
+}
+
+#apply, #pitt {
+  background-color: #403641;
+}
+
+#contact {
+  background-color: #e8e8e8;
+
+}
+
+#contact p {
+  color: #E55459;;
+}
+
+#search, #grey {
+  background-color: #817C81;
+}
+
+#picon, #infoicon, #searchicon{
+  width: 65px;
+}
+
+#touricon, #lifeicon {
+  width: 75px;
+}
+
+#applyicon {
+  width: 85px;
+}
+
+.row div {
+  padding-top: 10%;
+}
+
+.row div img {
+  padding-bottom: 4%;
+ }
+
+#tartan {
+  background-image: url("../img/tartan.png");
+  background-size: cover;
+}
+
 
