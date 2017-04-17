@@ -1,0 +1,72 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+body { 
+    padding-top: 50px; 
+}
+
+#explore {
+    font-size: 200%;
+}
+
+#back {
+    font-size: 140%;
+}
+
+img.pittImage {
+    width: 100%;
+}
+
+div.info {
+    background-color: rgb(200, 80, 80);
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    font-size: 120%;
+}
+
+div.icons {
+    width: 100%;
+    background-color: darkgray;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+div.col1 {
+    width: 30%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+div.col2 {
+    float: right;
+    width: 30%;
+    display: inline-block;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+div.col3 {
+    width: 30%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+div.col4 {
+    float: right;
+    width: 30%;
+    display: inline-block;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+div.icons img {
+    width: 100%;
+}
+
+
+
