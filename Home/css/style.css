@@ -17,20 +17,20 @@ body {
 
 * a:hover {
   text-decoration: none;
+  color: #fff;
 }
 
 .row div {
-  height: 180px;
+  height: 185px;
   text-align: center;
   box-sizing: border-box;
 }
-
 
 #tour, #life {
   background-color: #E55459;
 }
 
-#apply, #pitt {
+#map, #pitt {
   background-color: #403641;
 }
 
@@ -47,7 +47,7 @@ body {
   background-color: #817C81;
 }
 
-#picon, #infoicon, #searchicon{
+#picon, #infoicon, #searchicon , #pdfmap{
   width: 65px;
 }
 
@@ -55,7 +55,7 @@ body {
   width: 75px;
 }
 
-#applyicon {
+ {
   width: 85px;
 }
 

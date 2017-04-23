@@ -31,7 +31,7 @@
 	       	<div class="col-xs-4 col-md-4" id="search">
 	       		<a>
 	       		<img src="img/search.svg" id="searchicon">
-	       		<p>Search</p>
+	       		<p>Look for a place</p>
 	       		</a>
 	       	</div>
 	       	<div class="col-xs-6 col-md-6" id="pitt">
@@ -45,7 +45,7 @@
 	        <div class="col-xs-8 col-md-8" id="life">
 	        	<a href="#" >
 	        	<img src="img/lifeatcmu.svg" id="lifeicon">
-	       		<p>Life at CMU</p>
+	       		<p>Life at Carnegie Mellon</p>
 	       		</a>
 	       	</div>
 	       	<div class="col-xs-4 col-md-4" id="tartan">
@@ -53,14 +53,14 @@
 	    </div>
 	    <div class="row">
 	        <div class="col-xs-2 col-md-2" id= "grey"></div>
-	       	<div class="col-xs-5 col-md-5" id="apply">
-	       		<a href="#" >
-	       		<img src="img/apply.svg" id="applyicon">
-	       		<p>Apply Now </p>
+	       	<div class="col-xs-5 col-md-5" id="map">
+	       		<a href="http://www.cmu.edu/assets/pdfs/cmu_map_8.5x11.pdf" target="_blank">
+	       		<img src="img/pdfmap.svg" id="pdfmap">
+	       		<p>Campus Map </p>
 	       		</a>
 	       	</div>
 	       	<div class="col-xs-5 col-md-5" id="contact">
-	       		<a href="#" >
+	       		<a href="https://admission.enrollment.cmu.edu/" target="_blank">
 	       		<img src="img/info.svg" id="infoicon">
 	       		<p>Contact Us</p>
 	       		</a>
@@ -69,6 +69,52 @@
 	    
       </div> 
 	</div>
+
+<script>
+var search = $("#search");
+search.click(function() {
+   if ( !$(this).is(':animated') )
+    search.glowEffect(10,50,600); //( start value , destination value , duration );
+});
+
+var pitt = $("#pitt");
+pitt.click(function() {
+   if ( !$(this).is(':animated') )
+    pitt.glowEffect(10,50,600);
+});
+
+var tour = $("#tour");
+tour.click(function() {
+   if ( !$(this).is(':animated') )
+    tour.glowEffect(0,50,600);
+});
+
+var tour = $("#life");
+life.click(function() {
+   if ( !$(this).is(':animated') )
+    life.glowEffect(0,50,600);
+});
+
+
+
+$.fn.glowEffect = function(start, end, duration) {
+    var $this = this;
+    return this.css("a", start).animate({
+        a: end
+    }, {
+        duration: duration,
+        step: function(now) {
+            $this.css("text-shadow","0px 0px "+now+"px #ffc8c8");
+        }
+    });
+};
+</script>
+
+
+
+
+
+
 
 </body>
 </html>
