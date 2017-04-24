@@ -7,14 +7,18 @@ body {
 }
 
 #explore {
-    font-size: 200%;
+    font-size: 250%;
 }
 
 #back {
-    font-size: 140%;
+    font-size: 150%;
 }
 
 img.pittImage {
+    width: 100%;
+}
+
+#main {
     width: 100%;
 }
 
@@ -24,7 +28,7 @@ div.info {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 2%;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 div.icons {
@@ -67,6 +71,43 @@ div.col4 {
 div.icons img {
     width: 100%;
 }
+
+
+/*for options*/
+div.option {
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+div.light {
+    background-color: lightgray;
+}
+
+div.dark {
+    background-color: darkgray;
+}
+
+div.option img {
+    width: 97%;
+}
+
+div.option p{
+    position: absolute;
+    z-index: 1;
+    margin-left: 50%;
+    margin-top: 25%;
+    padding: 4% 7% 4%;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    font-size: 250%;
+}
+
+
+
 
 
 
