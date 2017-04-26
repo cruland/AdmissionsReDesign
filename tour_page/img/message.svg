@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M360.4,21.3c-181.6,0-328.7,147.3-328.7,329c0,91.7,37.4,174.5,97.8,234.3c31.2,30.8,68.3,55.3,109.8,71.7
+			c37.4,14.8,78.3,23,121.1,23s83.6-8.2,121.1-23c49.3-19.6,92.8-50.7,127-90.1c50.2-57.7,80.6-133.2,80.6-215.8
+			C689.2,168.6,542,21.3,360.4,21.3 M599,532.6c-55,71-141,116.6-237.7,116.6c-90.9,0-172.4-40.3-227.5-104.1
+			c-45.8-52.7-73.4-121.5-73.4-196.8C60.5,182,195.1,47.2,361.3,47.2S662.1,182,662.1,348.3C662,417.7,638.5,481.8,599,532.6"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect x="21.1" y="10.7" class="st0" width="678.6" height="679.1"/>
+</g>
+<g>
+	<g>
+		<path class="st1" d="M358.8,397.3l-45.4-39.8L183.5,468.9c4.7,4.4,11.1,7.1,18.1,7.1H516c7,0,13.4-2.7,18-7.1L404.2,357.6
+			L358.8,397.3z"/>
+		<path class="st1" d="M534.1,220.8c-4.7-4.4-11.1-7.1-18.1-7.1H201.6c-7,0-13.4,2.7-18.1,7.2l175.3,150.2L534.1,220.8z"/>
+		<polygon class="st1" points="175.2,236.8 175.2,454.7 302,347 		"/>
+		<polygon class="st1" points="415.7,347 542.4,454.7 542.4,236.7 		"/>
+	</g>
+</g>
+</svg>

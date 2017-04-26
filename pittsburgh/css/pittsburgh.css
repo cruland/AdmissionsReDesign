@@ -1,0 +1,113 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+body { 
+    padding-top: 50px; 
+}
+
+#explore {
+    font-size: 250%;
+}
+
+#back {
+    font-size: 150%;
+}
+
+img.pittImage {
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+div.info {
+    background-color: rgb(200, 80, 80);
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    font-size: 150%;
+}
+
+div.icons {
+    width: 100%;
+    background-color: darkgray;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+div.col1 {
+    width: 30%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+div.col2 {
+    float: right;
+    width: 30%;
+    display: inline-block;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+div.col3 {
+    width: 30%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+div.col4 {
+    float: right;
+    width: 30%;
+    display: inline-block;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+div.icons img {
+    width: 100%;
+}
+
+
+/*for options*/
+div.option {
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+div.light {
+    background-color: lightgray;
+}
+
+div.dark {
+    background-color: darkgray;
+}
+
+div.option img {
+    width: 97%;
+}
+
+div.option p{
+    position: absolute;
+    z-index: 1;
+    margin-left: 50%;
+    margin-top: 25%;
+    padding: 4% 7% 4%;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    font-size: 250%;
+}
+
+
+
+
+
+

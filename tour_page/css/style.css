@@ -1,0 +1,112 @@
+#header{
+	background-color: #e35459;
+	margin:0px;
+	padding-top:15px;
+	padding-bottom:15px;
+
+}
+
+h1{
+	color:#ffffff;
+	font-family: 'Cabin', sans-serif;
+	font-size:2em;
+	width:200px;
+	display: inline-block;
+	position: absolute;
+	right:3%;
+	top:0px;
+
+}
+
+#back_button{
+	margin:auto;
+}
+
+
+#fence{
+	position: relative;
+	background-color: #C1BCBC;
+	padding: 0px;
+}
+
+#text-box {
+    position: absolute;  
+    text-align: center;     
+    top:0px; 
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+h2{
+	color:#000000;
+	width:300px;
+	margin:auto;
+	padding:10px;
+	margin-top:25%;
+	background: rgba(255,255,255,0.8);
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+	font-size:2em;
+	}
+
+
+#fence img{
+	height: auto;
+	margin-bottom: 2%;
+}
+
+
+#cfa{
+	position: relative;
+	background-color: #C1BCBC;
+	padding: 0px;
+}
+
+#text-box2 {
+    position: absolute;  
+    text-align: center;     
+    top:0px; 
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+
+
+#cfa img{
+	max-width: 100%;
+	height: auto;
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+
+#gates{
+	position: relative;
+	background-color: #C1BCBC;
+	padding: 0px;
+}
+
+#text-box3 {
+    position: absolute;  
+    text-align: center;     
+    top:0px; 
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+
+#gates img{
+	max-width: 100%;
+	height: auto;
+	margin-top:2%;
+}
+
+

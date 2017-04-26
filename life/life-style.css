@@ -1,0 +1,124 @@
+<<<<<<< HEAD
+/* 
+Colors
+#E55459 - header
+#403641 - section 1 background
+#817C81 - section 2 background
+#403641 - section 3 - background
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url(https://fonts.googleapis.com/css?family=Cabin);
+    font-family: 'Righteous';
+    src: url(https://fonts.googleapis.com/css?family=Righteous);
+}
+
+#header {
+	font-family: 'Cabin', sans-serif;
+	background-color: #E55459;
+	text-align: right;
+	height: 10vh;
+	color: white;
+	display: inline;
+}
+
+#back {
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+
+#section1 {
+	height: 30vh;
+}
+
+#section1-picture {
+	padding: 0px;
+	height: 100%;
+
+	position: relative;
+
+	overflow: hidden;
+
+}
+
+#section1-text {
+	background-color: #403641;
+	color: white;
+	padding: 0px;
+	display: block;
+	height: 30vh;
+}
+
+
+#section2-picture {
+	padding: 0px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#section2-text {
+	background-color: #817C81;
+	color: white;
+	padding: 0px;
+	display: block;
+	height: 30vh;
+}
+
+.section-header {
+	text-align: center;
+	padding-top: 10%;
+}
+
+.section-text {
+	font-size: 100%;
+	font-family: 'Cabin', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left; 
+}
+
+#section2 {
+	font-family: 'Cabin', sans-serif;
+	background-color: #817C81;
+	color: white;
+	height: 30vh;
+}
+
+#section3 {
+	font-family: 'Cabin', sans-serif;
+	background-color: #403641;
+	color: white;
+	height: 30vh;
+}
+
+h1 {
+
+	font-size: 200%;
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+}
+
+h2 {
+	font-size: 150%;
+	font-family: 'Cabin', sans-serif
+}
+=======
+/* 
+Colors
+#FA928E - header
+#BF7E7C - section 1 background
+#FAE1D9 - section 2 background
+#C55652 - section 2 header
+#C55652 - section 3 - background
+*/
+>>>>>>> origin/master
