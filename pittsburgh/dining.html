@@ -11,97 +11,53 @@
 
         <script src="js/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
+        
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
     </head>
     
     <body>
         <div id="header">
-            <nav class="navbar navbar-default navbar-fixed-top">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-<!--                  <a class="navbar-brand" href="#">Brand</a>-->
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-<!--                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
-                    <li><a id="back" href="#">Back</a></li>
-<!--
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                      </ul>
-                    </li>
--->
-                  </ul>
-<!--
-                  <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                  </form>
--->
-                  <ul class="nav navbar-nav navbar-right">
-<!--
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </li>
--->
-                    <li>
-                        <a id="explore" class="navbar-brand" href="#">EXPLORE PITTSBURGH | Dining</a>  
-                    </li>
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
+            <img id="back_button" src="images/back_button.png" onClick="goBack()">
+            <h1>EXPLORE PITTSBURGH</h1>
         </div>
         
-        <div id="main">
-            <div class="row option light">
-                <p>Butcher and the Rye</p>
+        <div id="main" class="container-fluid">
+            <div class="row option left">
+                <p>
+                    <img src="images/dining/p2.png" alt="Butcher & the Rye" align="left">
+                    <h2>Butcher and the Rye</h2>
+                    <span class="detail">This is a restaurant</span>
+                </p>
                 
-                <img src="images/dining/butcher2.jpg" alt="Butcher & the Rye">
             </div>
             
-            <div class="row option dark">
-                <p>Conflict Kitchen</p>
-                
-                <img src="images/dining/conflict2.jpg" alt="Conflict Kitchen">
+            <div class="row option right">
+                <p>
+                    <img src="images/dining/p3.png" alt="Conflict Kitchen" align="right">
+                    <h2>Conflict Kitchen</h2>
+                    <span class="detail">This is a restaurant</span>
+                </p>
             </div>
             
-            <div class="row option light">
-                <p>The Porch</p>
+            <div class="row option left">
+                <p>
+                    <img src="images/dining/p1.jpg" alt="The Porch" align="left">
+                    <h2>The Porch</h2>
+                    <span class="detail">This is a restaurant</span>
+                </p>
                 
-                <img src="images/dining/porch2.jpg" alt="The Porch">
             </div>
             
-            <div class="row option dark">
-                <p>Primanti Bros.</p>
-                
-                <img src="images/dining/primanti2.jpg" alt="Primanti Bros.">
+            <div class="row option right">
+                <p>
+                    <img src="images/dining/p4.png" alt="Primanti Bros." align="right">
+                    <h2>Primanti Bros.</h2>
+                    <span class="detail">This is a restaurant</span>
+                </p>
             </div>
             
         </div>
