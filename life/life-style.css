@@ -28,10 +28,12 @@ Colors
 	display: inline;
 }
 
-#back {
-	width: 20px;
-	height: 20px;
+#back_button{
+	width: 40px;
 	display: inline;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
 }
 
 #section1 {
@@ -106,19 +108,12 @@ h1 {
 	position: absolute;
 	bottom: 0;
 	right: 5%;
+	display: inline-block;
 }
 
 h2 {
 	font-size: 150%;
 	font-family: 'Cabin', sans-serif
 }
-=======
-/* 
-Colors
-#FA928E - header
-#BF7E7C - section 1 background
-#FAE1D9 - section 2 background
-#C55652 - section 2 header
-#C55652 - section 3 - background
-*/
->>>>>>> origin/master
+
+

@@ -19,6 +19,14 @@
 	display: inline;
 }
 
+#back_button{
+	width: 40px;
+	display: inline;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
 h1 {
 
 	font-size: 200%;
@@ -31,6 +39,7 @@ h2 {
 	font-size: 150%;
 	text-align: center;
 	color: white;
+	text-decoration: none;
 }
 
 
@@ -45,7 +54,7 @@ h2 {
 }
 
 #section1 {
-	height: 30vh;
+	height: 32vh;
 }
 
 #section1-picture {
@@ -63,8 +72,18 @@ h2 {
 	color: white;
 	padding: 0px;
 	display: block;
-	height: 30vh;
+	height: 32vh;
+
 }
+
+.section-text {
+	font-size: 120%;
+	font-family: 'Cabin', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left; 
+}
+
 
 img {
 	max-width: 610px;
@@ -85,5 +104,25 @@ img {
 	color: white;
 	padding: 0px;
 	display: block;
-	height: 30vh;
+	height: 33vh;
+}
+
+#link {
+	text-decoration: none;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	font-size: 150%;
+}
+
+h2 a:hover {
+	color: white;
+}
+
+h2 a:active {
+	color: white;
+	text-decoration: none;
+}
+
+h2 a:visited {
+	color: white;
 }
