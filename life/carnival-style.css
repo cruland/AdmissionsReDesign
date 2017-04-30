@@ -47,7 +47,12 @@ h2 {
 #header-pic {
 	background-color: #310135;
 	align-content: center;
+	padding: 0px;
+
 }
+
+
+
 
 #topic-header {
 	background-color: #817C81
@@ -86,7 +91,7 @@ h2 {
 
 
 img {
-	max-width: 610px;
+	max-width: 100%;
 	overflow: hidden;
 }
 
