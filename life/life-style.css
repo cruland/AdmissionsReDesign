@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* 
 Colors
 #E55459 - header
@@ -56,6 +56,7 @@ Colors
 	padding: 0px;
 	display: block;
 	height: 30vh;
+	overflow: scroll;
 }
 
 
@@ -73,6 +74,7 @@ Colors
 	padding: 0px;
 	display: block;
 	height: 30vh;
+	overflow: scroll;
 }
 
 .section-header {
@@ -81,11 +83,12 @@ Colors
 }
 
 .section-text {
-	font-size: 100%;
+	font-size: 140%;
 	font-family: 'Cabin', sans-serif;
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: left; 
+	overflow: scroll;
 }
 
 #section2 {

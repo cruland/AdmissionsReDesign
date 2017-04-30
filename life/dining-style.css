@@ -75,6 +75,7 @@ h2 {
 	padding: 0px;
 	display: block;
 	height: 30vh;
+	overflow: scroll;
 }
 
 img {
@@ -97,4 +98,13 @@ img {
 	padding: 0px;
 	display: block;
 	height: 30vh;
+}
+
+.section-text {
+	font-size: 140%;
+	font-family: 'Cabin', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left; 
+	overflow: scroll;
 }

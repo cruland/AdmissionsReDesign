@@ -29,6 +29,8 @@
 }
 
 
+
+
 h1 {
 
 	font-size: 200%;
@@ -57,6 +59,8 @@ h2 {
 
 #section1 {
 	height: 30vh;
+	overflow: scroll;
+	background-color: #403641;
 }
 
 #section1-picture {
@@ -75,6 +79,10 @@ h2 {
 	padding: 0px;
 	display: block;
 	height: 30vh;
+}
+.section-text {
+	font-size: 120%;
+	background-color: inherit;
 }
 
 img {
@@ -101,5 +109,7 @@ img {
 }
 
 #section2 {
-	background-color: #403641;
+	background-color: #817C81;
+	overflow: scroll;
 }
+
