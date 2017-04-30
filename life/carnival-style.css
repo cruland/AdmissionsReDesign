@@ -3,6 +3,10 @@
 	margin: 0;
 }
 
+img {
+	width: 100%;
+}
+
 @font-face {
     font-family: 'Cabin';
     src: url(https://fonts.googleapis.com/css?family=Cabin);
