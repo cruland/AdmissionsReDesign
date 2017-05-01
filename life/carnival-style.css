@@ -24,7 +24,7 @@ img {
 }
 
 #back_button{
-	width: 40px;
+	width: 80px;
 	display: inline;
 	position: absolute;
 	left: 10px;
@@ -60,6 +60,7 @@ h1 {
 
 #section1 {
 	height: 32vh;
+	background-color: #403641;
 }
 
 #section1-picture {
@@ -114,6 +115,10 @@ img {
 	padding: 0px;
 	display: block;
 	height: 33vh;
+}
+
+#section2 {
+	background-color: #817C81;
 }
 
 #link {

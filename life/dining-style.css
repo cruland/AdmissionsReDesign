@@ -25,7 +25,7 @@
 
 
 #back_button{
-	width: 40px;
+	width: 80px;
 	display: inline;
 	position: absolute;
 	left: 10px;
@@ -35,7 +35,7 @@
 
 h1 {
 
-	font-size: 400%;
+	font-size: 500%;
 	position: absolute;
 	bottom: 0;
 	right: 5%;
@@ -61,6 +61,7 @@ h2 {
 
 #section1 {
 	height: 30vh;
+	background-color: #403641;
 }
 
 #section1-picture {
@@ -104,6 +105,10 @@ img {
 	height: 30vh;
 }
 
+#section2 {
+	background-color: #817C81
+}
+
 .section-text {
 	font-size: 250%;
 	font-family: 'Cabin', sans-serif;
@@ -114,7 +119,7 @@ img {
 }
 
 .section-header {
-font-size: 250%;
+font-size: 350%;
 	text-align: center;
 	color: white;
 	text-decoration: none;

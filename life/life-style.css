@@ -34,7 +34,7 @@ Colors
 
 
 #back_button{
-	width: 40px;
+	width: 80px;
 	display: inline;
 	position: absolute;
 	left: 10px;
@@ -91,7 +91,7 @@ Colors
 .section-header {
 	text-align: center;
 	padding-top: 10%;
-		font-size: 250%;
+	font-size: 250%;
 	font-family: 'Cabin', sans-serif;
 }
 
