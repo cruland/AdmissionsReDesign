@@ -1,5 +1,5 @@
 * {
-    font-family: 'Cabin', sans-serif;
+    font-family: "Helvetica", serif;
 }
 
 
@@ -9,17 +9,17 @@
 	margin:0px;
 	padding-top:15px;
 	padding-bottom:15px;
+    font-family: 'Cabin', sans-serif;
 
 }
 
 h1{
 	color:#ffffff;
-	font-size: 300%;
+	font-size: 320%;
 	display: inline-block;
 	position: absolute;
 	right:3%;
 	top:0px;
-
 }
 
 #back_button{
@@ -41,7 +41,7 @@ div.info {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 2%;
-    font-size: 170%;
+    font-size: 270%;
     color: #ffffff;
 }
 
@@ -94,7 +94,8 @@ div.option{
 
 div.option h2 {
     margin-top: 3.5%;
-    font-size: 280%;
+    font-size: 290%;
+    font-family: 'Cabin', sans-serif;
 }
 
 div.option img {
@@ -124,7 +125,7 @@ div.left span.detail {
 }
 
 span.detail {
-    font-size: 200%;
+    font-size: 265%;
 }
 
 
