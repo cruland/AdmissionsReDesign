@@ -28,6 +28,11 @@ Colors
 	display: inline;
 }
 
+#top {
+	font-size: 400%;
+}
+
+
 #back_button{
 	width: 40px;
 	display: inline;
@@ -86,10 +91,12 @@ Colors
 .section-header {
 	text-align: center;
 	padding-top: 10%;
+		font-size: 250%;
+	font-family: 'Cabin', sans-serif;
 }
 
 .section-text {
-	font-size: 140%;
+	font-size: 250%;
 	font-family: 'Cabin', sans-serif;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -113,16 +120,11 @@ Colors
 
 h1 {
 
-	font-size: 200%;
+	font-size: 400%;
 	position: absolute;
 	bottom: 0;
 	right: 5%;
 	display: inline-block;
-}
-
-h2 {
-	font-size: 150%;
-	font-family: 'Cabin', sans-serif
 }
 
 

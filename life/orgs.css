@@ -33,14 +33,14 @@
 
 h1 {
 
-	font-size: 200%;
+	font-size: 400%;
 	position: absolute;
 	bottom: 0;
 	right: 5%;
 }
 
-h2 {
-	font-size: 150%;
+.subhead {
+	font-size: 250%;
 	text-align: center;
 	color: white;
 }
@@ -73,6 +73,11 @@ h2 {
 
 }
 
+#top {
+	font-size: 400%;
+}
+
+
 #section1-text {
 	background-color: #403641;
 	color: white;
@@ -81,7 +86,7 @@ h2 {
 	height: 30vh;
 }
 .section-text {
-	font-size: 120%;
+	font-size: 250%;
 	background-color: inherit;
 }
 

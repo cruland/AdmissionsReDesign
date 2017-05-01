@@ -33,19 +33,17 @@ img {
 
 h1 {
 
-	font-size: 200%;
+	font-size: 400%;
 	position: absolute;
 	bottom: 0;
 	right: 5%;
 }
-
-h2 {
-	font-size: 150%;
+.section-header {
+	font-size: 250%;
 	text-align: center;
 	color: white;
 	text-decoration: none;
 }
-
 
 
 #header-pic {
@@ -54,8 +52,6 @@ h2 {
 	padding: 0px;
 
 }
-
-
 
 
 #topic-header {
@@ -85,8 +81,12 @@ h2 {
 
 }
 
+#top {
+	font-size: 400%;
+}
+
 .section-text {
-	font-size: 140%;
+	font-size: 250%;
 	font-family: 'Cabin', sans-serif;
 	margin-left: 10%;
 	margin-right: 10%;
