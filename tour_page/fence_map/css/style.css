@@ -1,0 +1,40 @@
+#header{
+	background-color: #e35459;
+	margin:0px;
+	padding-top:15px;
+	padding-bottom:15px;
+
+}
+
+h1{
+	color:#ffffff;
+	font-family: 'Cabin', sans-serif;
+	font-size:2em;
+	width:130px;
+	display: inline-block;
+	position: absolute;
+	right:3%;
+	top:0px;
+
+}
+
+#info{
+	background-color: #403641;
+}
+
+#introduction{
+	margin-left:5%;
+	margin-top:5%;
+	padding:3%;
+	color: #ffffff;
+	background-image: url("../img/Speech_Bubble_Transparent.png");
+	background-color: #817c82;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.3em;
+}
+
+#tourguide{
+	display: inline-block;
+	margin-top:0px;
+	width: 25%;
+}
