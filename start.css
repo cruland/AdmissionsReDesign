@@ -1,0 +1,69 @@
+body {
+  position: relative;
+  padding-top: 1.5%: 
+  margin: 0;
+  background-color: #3f3642;
+  font-family: 'Cabin', sans-serif;
+  color: #fff;
+
+}
+
+#center {
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#logo {
+  z-index: 100;
+}
+
+#logo img {
+  width: 60%;
+}
+
+#link  {
+  background-color: #c41230;
+  color: #fff;
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+#link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#link {
+  margin-top: 2%;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.4);
+}
+
+#tartan {
+  z-index: 10;
+}
+
+#tartan img{
+  width: 100%;
+}
+
+#choose {
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+#line {
+  padding: 0.2%;
+  background-color: #fff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
